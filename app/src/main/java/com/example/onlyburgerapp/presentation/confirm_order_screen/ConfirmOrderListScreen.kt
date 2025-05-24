@@ -83,7 +83,8 @@ fun ConfirmOrderListScreen(
                         .height(450.dp)
                         .padding(
                             top = 16.dp
-                        ),
+                        )
+                        .align(Alignment.CenterHorizontally),
                     colors = CardDefaults.cardColors(containerColor = OnlyBurgerOrange)
                 ) {
                     LazyVerticalGrid(
